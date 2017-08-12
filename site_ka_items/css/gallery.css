@@ -1,0 +1,66 @@
+
+		
+			@font-face{
+				font-family:font1;
+				src:url(../fonts/OCRASTD.OTF);
+			}
+
+			body{
+				background:url(../pic/galleryback.jpg) no-repeat center center fixed #000;
+				background-size:cover;
+				-moz-background-size:cover;
+				-webkit-background-size:cover;
+				-o-background-size:cover;
+			}
+			#sitename{
+				background-color:rgba(0,0,0,0.7);
+				
+			}
+			
+			#sitename h1 {
+				font-size:50px;
+				font-family:font1;
+				color:rgba(215,0,0,1);
+			}
+			
+			#menu{	
+				background-color:rgba(215,0,0,1);
+			}
+			#menu h2 {
+				font-size:21px;
+				padding:12px;
+			}
+			.menuanchor{
+				transition: all 0.3s;
+				text-decoration:none;
+				color:black;
+			}
+			.menuanchor:hover{
+				background-color:rgba(0,0,0,0.9);
+				color:rgba(255,5,5,0.9);
+				padding-top:12px;
+				padding-bottom:13px;
+				padding-left:260px;
+				padding-right:260px;	
+			}
+			
+			#middle{
+				margin:0px auto;
+				height:auto;
+				width:800px;
+				background-color:rgba(0,0,0,0.55);
+			}
+			#middle img{
+				margin:5px 2px 0px;
+				background-color:black;
+				padding:8px;
+				float:left;
+			}
+			#middle img:hover{
+				position:center;
+				float:right;
+				transition:all 0.35s;
+				width:760px;
+				padding:20px;
+			}
+			

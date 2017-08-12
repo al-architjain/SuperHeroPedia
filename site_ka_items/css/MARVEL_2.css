@@ -1,0 +1,65 @@
+
+		
+			@font-face{
+				font-family:font1;
+				src:url(../fonts/OCRASTD.OTF);
+			}
+			@font-face{
+				font-family:font3;
+				src:url(../fonts/ARESSENCE.TTF);
+			}
+
+			body{
+				background-color:rgba(157,25,21,1);
+			}
+			
+			#sitename h1 {
+				font-size:50px;
+				font-family:font1;
+				color:rgba(130,130,130,1);
+			}
+			
+			#menu{	
+				background-color:rgba(130,130,130,1);
+			}
+			#menu h2 {
+				font-size:21px;
+				padding:12px;
+			}
+			.menuanchor{
+				transition: all 0.3s;
+				text-decoration:none;
+				color:rgba(157,25,21,1);
+			}
+			.menuanchor:hover{
+				background-color:rgba(157,25,21,1);
+				color:rgba(130,130,130,1);
+				padding-top:12px;
+				padding-bottom:13px;
+				padding-left:260px;
+				padding-right:260px;	
+			}
+			#middle{
+				margin:0px auto;
+				height:auto;
+				width:800px;
+				background-color:rgba(255,255,255,0.1);
+			}
+			#middle h1{
+				font-family:font3;
+				color:rgba(130,130,130,1);
+				background-color:rgba(0,0,0,0.3);
+				padding:10px;
+			}
+			#middle img{
+				width:400px;
+			}
+			#middle p{
+				color:rgba(130,130,130,1);
+				margin-left:25px;
+				padding:15px 25px;
+				font-size:25px;
+				height:auto;
+				width:700px;
+			}
+		

@@ -1,0 +1,75 @@
+
+		
+			@font-face{
+				font-family:font1;
+				src:url(../fonts/OCRASTD.OTF);
+			}
+
+			body{
+				background:url(../pic/marvelback.jpg) no-repeat center center fixed #000;
+				background-size:cover;
+				-moz-background-size:cover;
+				-webkit-background-size:cover;
+				-o-background-size:cover;
+			}
+			#sitename{
+				background-color:rgba(255,255,255,0.9);
+				
+			}
+			
+			#sitename h1 {
+				padding-top:10px;
+				font-size:50px;
+				font-family:font1;
+				color:rgba(25,40,75,1);
+			}
+			
+			#menu{	
+				background-color:rgba(25,40,75,1);
+			}
+			#menu h2 {
+				font-size:21px;
+				padding:12px;
+			}
+			.menuanchor{
+				transition: all 0.3s;
+				text-decoration:none;
+				color:rgba(255,255,255,1);
+			}
+			.menuanchor:hover{
+				background-color:rgba(255,255,255,0.9);
+				color:rgba(25,40,75,1);
+				padding-top:12px;
+				padding-bottom:13px;
+				padding-left:260px;
+				padding-right:260px;	
+			}
+			
+			#middle{
+				margin:0px auto;
+				height:auto;
+				width:800px;
+				background-color:rgba(255,255,255,0.15);
+			}
+			#middle h1{
+				background-color:rgba(255,255,255,0.9);
+				color:rgba(25,40,75,1);
+				padding-top:25px;
+				padding-bottom:15px;
+			}
+			#middle #l{
+				width:400px;
+				margin:5px 5px 5px 25px;
+				background-color:white;
+				padding:8px;
+				float:left;
+			}
+			#middle #r{
+				width:400px;
+				margin:5px 25px 5px 5px;
+				background-color:white;
+				padding:8px;
+				float:right;
+			}
+			
+	

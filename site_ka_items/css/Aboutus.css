@@ -1,0 +1,80 @@
+@font-face{
+				font-family:font1;
+				src:url(../fonts/OCRASTD.OTF);
+			}
+			@font-face{
+				font-family:font2;
+				src:url(../fonts/ARDESTINE.TTF);
+			}
+			@font-face{
+				font-family:font3;
+				src:url(../fonts/ARESSENCE.TTF);
+			}
+			@font-face{
+				font-family:font4;
+				src:url(../fonts/COMIC.TTF);
+			}
+			@font-face{
+				font-family:font5;
+				src:url(../fonts/EDITING.TTF);
+			}
+
+			body{
+				background:url(../pic/aboutusback.jpg) no-repeat center center fixed #000;
+				background-size:cover;
+				-moz-background-size:cover;
+				-webkit-background-size:cover;
+				-o-background-size:cover;
+			}
+			
+			#sitename h1 {
+				padding-top:10px;
+				background-color:rgba(0,0,0,0.31);
+				font-size:50px;
+				font-family:font1;
+				color:rgba(260,230,55,1);
+			}
+			
+			#menu{	
+				background:rgba(260,230,55,0.7);
+			}
+			#menu h2 {
+				font-size:21px;
+				padding:12px;
+			}
+			.menuanchor{
+				transition: all 0.3s;
+				text-decoration:none;
+				color:black;
+			}
+			.menuanchor:hover{
+				background-color:rgba(0,0,0,0.9);
+				color:rgba(260,230,55,1);
+				padding-top:12px;
+				padding-bottom:13px;
+				padding-left:260px;
+				padding-right:260px;	
+			}
+			
+			#middle{
+				margin:0px auto;
+				height:950px;
+				width:800px;
+				background-color:rgba(0,0,0,0.31);
+			}
+			#middle h1{
+				background-color:rgba(0,0,0,0.31);
+				color:rgba(260,230,55,1);
+				padding-top:25px;
+				padding-bottom:15px;
+			}
+			#middle p{
+				margin-left:25px;
+				padding:15px 25px;
+				font-size:22px;
+				color:rgba(260,230,55,1);
+				height:800px;
+				width:700px;
+				background-color:rgba(0,0,0,0.31);
+			}
+			

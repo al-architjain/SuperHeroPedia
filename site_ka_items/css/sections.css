@@ -1,0 +1,67 @@
+@font-face{
+				font-family:font1;
+				src:url(../fonts/OCRASTD.OTF);
+			}
+
+			body{
+				background:rgba(160,220,230,1);
+				overflow-x:hidden;
+			}
+			
+			#sitename h1 {
+				background-color:rgba(0,0,0,0.55);
+				padding-top:10px;
+				font-size:50px;
+				font-family:font1;
+				color:rgba(60,255,214,1);
+			}
+			
+			#menu{	
+				background:rgba(60,255,214,0.75);
+			}
+			#menu h2 {
+				font-size:21px;
+				padding:12px;
+			}
+			.menuanchor{
+				transition: all 0.3s;
+				text-decoration:none;
+				color:black;
+			}
+			.menuanchor:hover{
+				background-color:rgba(160,220,230,1);
+				color:rgba(61,92,200,1);
+				padding-top:12px;
+				padding-bottom:13px;
+				padding-left:260px;
+				padding-right:260px;	
+			}
+			#left{
+				float:left;
+				height:auto;
+				width:600px;
+				margin-left:-360px;
+			}
+			#right{
+				float:right;
+				height:auto;
+				width:600px;
+				margin-right:-360px
+			}
+			#left:hover{
+				padding:50px;
+				padding-left:0px;
+				border:1px solid rgba(0,0,0,0.55);
+				transition: all 0.4s;
+				margin-left:-5px;
+			}
+			#right:hover{
+				padding:50px;
+				padding-right:0px;
+				border:1px solid rgba(0,0,0,0.35);
+				transition: all 0.4s;
+				margin-right:-5px
+			}
+			#middle:hover{
+				width:300px;
+			}

@@ -1,0 +1,40 @@
+
+		
+			@font-face{
+				font-family:font1;
+				src:url(../fonts/OCRASTD.OTF);
+			}
+			@font-face{
+				font-family:font2;
+				src:url(../fonts/ARDESTINE.TTF);
+			}
+
+			body{
+				background:url(../pic/mainpagebackground.jpg) no-repeat center center fixed #000;
+				background-size:cover;
+				-moz-background-size:cover;
+				-webkit-background-size:cover;
+				-o-background-size:cover;
+			}
+			
+			#sitename h1 {
+				font-size:50px;
+				font-family:font1;
+				color:rgba(60,255,214,1);
+			}
+			
+			#middle{
+				margin:0px auto;
+				height:1000px;
+				width:1000px;
+				
+			}
+			#middle img{
+				border:4px solid rgba(60,255,214,1);
+				border-radius:50%;
+			}
+			#middle a{
+				text-decoration:none;
+				color:rgba(60,255,214,1);
+			}
+			
